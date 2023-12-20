@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Button pressed state -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#3498db" /> <!-- Pressed color -->
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- Button default state -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#3498db"
+                android:endColor="#2980b9"
+                android:angle="270" />
+            <corners android:radius="50dp" /> <!-- Adjust the radius to make it circular -->
+        </shape>
+    </item>
+
+</selector>
